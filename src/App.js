@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import "./styles/home/navbar_overrides.css";
 import { FaHome } from "react-icons/fa";
 import React, {Fragment} from 'react';
 import { scroller } from "react-scroll";
@@ -19,36 +20,36 @@ function App() {
   return (
     <div className="App">
      <Fragment>
-     <ScrollToTop smooth color="violet"/>
+     <ScrollToTop className="scroll_button" smooth />
             <div className="row">
                     <div className="col-md-12">
                         <Router>
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                                <Navbar.Brand href="#home">Radjou Sailaja</Navbar.Brand>
+                                <Navbar.Brand href="#home" className="nav_name"><h1>Radjou Sailaja - Developpeur Web Junior Frontend</h1></Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
-                                    <Nav className="mr-auto">
-                                        <Nav.Link onClick={() => scroller.scrollTo('home', {
+                                    <Nav className="mr-auto nav_link_display">
+                                        <Nav.Link className="nav_link" onClick={() => scroller.scrollTo('home', {
                                                 smooth: true,
                                                 offset: -70,
                                                 duration: 500,
-                                            })}><FaHome /></Nav.Link>
-                                        <Nav.Link onClick={() => scroller.scrollTo('parcours', {
+                                            })}><FaHome className="home_icon"/></Nav.Link>
+                                        <Nav.Link className="nav_link" onClick={() => scroller.scrollTo('parcours', {
                                                 smooth: true,
                                                 offset: -70,
                                                 duration: 500,
                                             })}>Parcours</Nav.Link>
-                                        <Nav.Link onClick={() => scroller.scrollTo('competences', {
+                                        <Nav.Link className="nav_link" onClick={() => scroller.scrollTo('competences', {
                                                 smooth: true,
                                                 offset: -70,
                                                 duration: 500,
                                             })}>Compétences</Nav.Link>
-                                        <Nav.Link onClick={() => scroller.scrollTo('projects', {
+                                        <Nav.Link className="nav_link" onClick={() => scroller.scrollTo('projects', {
                                                 smooth: true,
                                                 offset: -70,
                                                 duration: 500,
                                             })}>Portfolio</Nav.Link>
-                                        <Nav.Link onClick={() => scroller.scrollTo('contact', {
+                                        <Nav.Link className="nav_link" onClick={() => scroller.scrollTo('contact', {
                                                 smooth: true,
                                                 offset: -70,
                                                 duration: 500,

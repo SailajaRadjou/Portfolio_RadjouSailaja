@@ -1,0 +1,25 @@
+.nav_link {
+  border-radius: 2rem;
+  font-size: 1.2rem;
+}
+.nav_link:hover {
+  color: #7451eb !important;
+  background-color: #fff !important;
+}
+
+.nav_name {
+  display: flex;
+  flex: 40%;
+  justify-content: center;
+}
+
+.nav_link_display {
+  display: flex;
+  flex: 60%;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.home_icon {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=navbar_overrides.css.map */

@@ -10,13 +10,35 @@ html,body{
 }
 body{
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Overpass', sans-serif;
   width: 100%;
    
 }
 .App{
-  background-color: aquamarine;
+  background-color: rgb(172, 245, 220);
 }
+h1{
+  font-size: 1.5rem;
+}
+p{
+  font-size: 1.2rem;
+}
+.scroll_button{
+  background-color: transparent;
+  color: rgb(6, 51, 6);
+  right: 40px;
+  bottom: 40px;
+  position: fixed;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 40px;
+  height: 40px;
+  transition: opacity 1s ease-in-out;
+  box-shadow: 0 9px 25px 0 rgb(132 128 177 / 28%);
+  border: none;
+  outline: none;
+} 
 
 img{
   width:250px;
@@ -35,4 +57,12 @@ img{
 .pdf_img_display{
   width:100px;
   height:100px;
+  transition: transform 300ms;
+}
+.pdf_img_display:hover{
+  /*box-shadow: 2px 3px 8px rgb(68, 67, 67);*/
+  transform: scale(1.2);
+}  
+.sub_title, .copy_right{
+  font-family: 'Pacifico', cursive;
 }

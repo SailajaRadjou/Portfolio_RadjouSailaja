@@ -7,7 +7,7 @@ function Parcours() {
         <Fragment>
             <div className="container" id="parcours">
             <div className="col-sm-12">
-                <h2 className="mySkills">Parcours</h2><br />
+                <h2 className="sub_title">Parcours</h2><br />
             <CardGroup>
                 <Card className="card_display">
                     <Card.Img variant="top" src={Univ_img} className="img-fluid"/>

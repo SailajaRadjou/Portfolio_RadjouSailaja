@@ -4,5 +4,19 @@ $projet_card_margin : 1.5rem;
 .card_display{
     margin: $projet_card_margin;
     padding: 15px;
-    background-color: rgb(220, 253, 244);
+    transition: transform 300ms;
+    border-radius: 1.5rem !important;
+    box-shadow: 2px 3px gainsboro;
+    &_border{
+        border-radius: 1.5rem 1.5rem 0 0 !important;
+    }
+    &:hover{
+        //transform: scale(1.05);
+        box-shadow: 2px 3px 8px rgb(68, 67, 67);
+    }
+}
+
+.projet_display_footer{
+    display: flex;
+    justify-content: space-between;
 }

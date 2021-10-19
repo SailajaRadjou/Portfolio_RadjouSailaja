@@ -1,0 +1,21 @@
+.font_icon{
+    display: flex;
+    justify-content: center;
+       
+    &_display{
+    font-size: 2rem;
+    margin: 1rem;
+    color: rgb(26, 90, 69);
+    transition: transform 300ms;
+    &:hover{
+        transform: scale(1.2);        
+    }
+    }
+}
+
+.contact_email{
+    color: rgb(77, 30, 3);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+}

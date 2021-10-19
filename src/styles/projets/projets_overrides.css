@@ -1,5 +1,18 @@
 .card_display {
   margin: 1.5rem;
   padding: 15px;
-  background-color: #dcfdf4;
+  transition: transform 300ms;
+  border-radius: 1.5rem !important;
+  box-shadow: 2px 3px gainsboro;
+}
+.card_display_border {
+  border-radius: 1.5rem 1.5rem 0 0 !important;
+}
+.card_display:hover {
+  box-shadow: 2px 3px 8px #444343;
+}
+
+.projet_display_footer {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=projets_overrides.css.map */

@@ -9,7 +9,7 @@ function Competences() {
         <Fragment>
             <div className="container" id="competences">
            <div className="col-sm-12">
-                <h2 className="mySkills">Compétences</h2><br />
+                <h2 className="sub_title">Compétences</h2><br />
             <CardGroup>
                 <Card className="card_display">
                     <Card.Img variant="top" src={Front_img} />
