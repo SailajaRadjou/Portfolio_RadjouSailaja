@@ -9,7 +9,7 @@ function Parcours() {
             <div className="col-sm-12">
                 <h2 className="mySkills">Parcours</h2><br />
             <CardGroup>
-                <Card>
+                <Card className="card_display">
                     <Card.Img variant="top" src={Univ_img} className="img-fluid"/>
                     <Card.Body>
                     <Card.Title>Master en Informatique Appliqué (MCA)</Card.Title>
@@ -21,7 +21,7 @@ function Parcours() {
                     <small className="text-muted">2001-2004</small>
                     </Card.Footer>
                 </Card>
-                <Card>
+                <Card className="card_display">
                     <Card.Img variant="top" src={Open_img} className="img-fluid image_display"  />
                     <Card.Body>
                     <Card.Title>Formation OpenClassrooms</Card.Title>

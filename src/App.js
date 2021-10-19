@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import React, {Fragment} from 'react'
+import { FaHome } from "react-icons/fa";
+import React, {Fragment} from 'react';
 import { scroller } from "react-scroll";
 import {
     BrowserRouter as Router,
@@ -31,7 +32,7 @@ function App() {
                                                 smooth: true,
                                                 offset: -70,
                                                 duration: 500,
-                                            })}>Home</Nav.Link>
+                                            })}><FaHome /></Nav.Link>
                                         <Nav.Link onClick={() => scroller.scrollTo('parcours', {
                                                 smooth: true,
                                                 offset: -70,
@@ -47,11 +48,11 @@ function App() {
                                                 offset: -70,
                                                 duration: 500,
                                             })}>Portfolio</Nav.Link>
-                                        <Nav.Link onClick={() => scroller.scrollTo('contacts', {
+                                        <Nav.Link onClick={() => scroller.scrollTo('contact', {
                                                 smooth: true,
                                                 offset: -70,
                                                 duration: 500,
-                                            })}>Contact Us</Nav.Link>
+                                            })}>Me Contacter</Nav.Link>
                                         
                                     </Nav>
                                     

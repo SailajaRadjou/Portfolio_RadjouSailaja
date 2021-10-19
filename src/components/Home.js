@@ -1,9 +1,12 @@
-import React, {Fragment} from 'react'
+import React, {Fragment} from 'react';
+import {Card} from 'react-bootstrap';
 import Project from './Projets';
 import Contact from './Contact';
 import Competences from './Competences';
 import Parcours from './Parcours';
 import pic_img from "../images/IMGP0247.JPG"; 
+import pdf_img from "../images/PDF_file.png";
+import pdf_file from "../downloads/CV_Radjou_Sailaja_Developpeur_Web.pdf";
 function Home() {
     return (
         <Fragment>
@@ -25,9 +28,21 @@ function Home() {
                             </p>
                         </div>
                     </div>  
+                    
                     <Parcours />
                     <Competences />
-                    <Project />
+                    <Project /><br />
+                    <div className="row">
+                        <div className="col-sm-12 text-center">
+                            <div className="rounded-circle">
+                                <p>Vous pouvez également télécharger mon CV dans un format plus classique. Pour cela cliquez sur l'icône ci-dessous.</p>
+                                <a href={pdf_file} target="_blank" rel="noopener noreferrer"> 
+                                    <img src={pdf_img} className="square mx-auto d-block pdf_img_display" alt="My_Profile_Picture" />
+                                </a>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
                     <Contact />
             </div>
         </Fragment>

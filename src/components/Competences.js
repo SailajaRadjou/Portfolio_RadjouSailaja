@@ -11,7 +11,7 @@ function Competences() {
            <div className="col-sm-12">
                 <h2 className="mySkills">Compétences</h2><br />
             <CardGroup>
-                <Card>
+                <Card className="card_display">
                     <Card.Img variant="top" src={Front_img} />
                     <Card.Body>
                     <Card.Title>Fontend Languages</Card.Title>
@@ -21,7 +21,7 @@ function Competences() {
                     </Card.Body>
                     
                 </Card>                
-                <Card>
+                <Card className="card_display">
                     <Card.Img variant="top" src={Mise_img} />
                     <Card.Body>
                     <Card.Title> Mise en Page </Card.Title>
@@ -33,7 +33,7 @@ function Competences() {
                 </Card>
             </CardGroup><br />
             <CardGroup>
-                <Card>
+                <Card className="card_display">
                     <Card.Img variant="top" src={Back_img} />
                     <Card.Body>
                     <Card.Title>Backend Languages</Card.Title>
@@ -43,7 +43,7 @@ function Competences() {
                     </Card.Body>
                     
                 </Card>
-                <Card>
+                <Card className="card_display">
                     <Card.Img variant="top" src={Db_img} />
                     <Card.Body>
                     <Card.Title> Database</Card.Title>

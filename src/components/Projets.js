@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react'
 import {CardGroup, Card} from 'react-bootstrap';
+import "../styles/projets/projets_overrides.css";
 import Projet3 from "../images/projet3.png";
 import Projet4 from "../images/projet4.png";
 import Projet5 from "../images/projet_orino.png";
@@ -12,7 +13,7 @@ function Projets() {
                 <div className="col-sm-12">
                     <h2 className="mySkills">Mes Réalisations</h2><br />
                     <CardGroup>
-                        <Card>
+                        <Card className="card_display">
                             <Card.Img variant="top" src={Projet3} className="img-fluid image_display" />
                             <Card.Body>
                             <Card.Title>Ohmyfood</Card.Title>
@@ -24,7 +25,7 @@ function Projets() {
                             <small className="text-muted">Projet3 - OpenClassrooms 2021</small>
                             </Card.Footer>
                         </Card>
-                        <Card>
+                        <Card className="card_display">
                             <Card.Img variant="top" src={Projet4} className="img-fluid image_display" />
                             <Card.Body>
                             <Card.Title>Card title</Card.Title>
@@ -37,7 +38,7 @@ function Projets() {
                             <small className="text-muted">Last updated 3 mins ago</small>
                             </Card.Footer>
                         </Card>
-                        <Card>
+                        <Card className="card_display">
                             <Card.Img variant="top" src={Projet5} className="img-fluid image_display" />
                             <Card.Body>
                             <Card.Title>Card title</Card.Title>
@@ -53,7 +54,7 @@ function Projets() {
                         </Card>
                     </CardGroup>
                     <CardGroup>
-                        <Card>
+                        <Card className="card_display">
                             <Card.Img variant="top" src={Projet6} className="img-fluid" />
                             <Card.Body>
                             <Card.Title>Ohmyfood</Card.Title>
@@ -65,7 +66,7 @@ function Projets() {
                             <small className="text-muted">Projet3 - OpenClassrooms 2021</small>
                             </Card.Footer>
                         </Card>
-                        <Card>
+                        <Card className="card_display">
                             <Card.Img variant="top" src={Projet7} className="img-fluid" />
                             <Card.Body>
                             <Card.Title>Card title</Card.Title>
