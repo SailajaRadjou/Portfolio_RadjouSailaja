@@ -1,6 +1,15 @@
 @media screen and (min-width : 300px) and (max-width : 700px)
 {
-.parcours_container{
-    margin:0;
-    padding: 0;
-}}
+    .parcours_container{
+        margin:0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width : 701px) and (max-width : 1025px)
+{
+    .parcours_container{
+        margin:0;
+        padding: 0;
+    }
+}

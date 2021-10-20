@@ -2,9 +2,19 @@
     width: 300px;
 }
 
-@media screen and (min-width : 300px) and (max-width : 700px)
+@media screen and (min-width : 300px) and (max-width : 699px)
 {
     .card_display_image{
         width: 100%;
+    }
+}
+
+@media screen and (min-width : 700px) and (max-width : 1025px)
+{
+    .card_display_image{
+        width: 100% !important;
+    }
+    .card_display{
+        margin: 2px;
     }
 }

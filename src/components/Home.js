@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import {OverlayTrigger, Tooltip} from 'react-bootstrap';
-//import Overlay from 'react-bootstrap';
+import "../styles/home/home_overrides.css";
 import Project from './Projets';
 import Contact from './Contact';
 import Competences from './Competences';
@@ -13,13 +13,13 @@ function Home() {
         <Fragment>
             <div className="container" id="home">
                     <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-4 display_profile_photo">
                             <div className="rounded-circle">
                                 <img src={pic_img} className="rounded-circle mx-auto d-block profile_img" alt="My_Profile_Picture" />
                             </div>
                             <br />
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col-sm-8 presentation_display">
                             <h2 className="sub_title">Présentations</h2>
                             <br />
                             <p className="text-justify">Toujours passionné par l'informatique, j'ai commencé mes études par une licence. Ensuite j'ai approfondie mes connaissances par un master en Informatique appliqué.

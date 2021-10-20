@@ -1,31 +1,20 @@
 .font_icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .font_icon_display {
   font-size: 2rem;
   margin: 1rem;
   color: #1a5a45;
-  -webkit-transition: -webkit-transform 300ms;
-  transition: -webkit-transform 300ms;
   transition: transform 300ms;
-  transition: transform 300ms, -webkit-transform 300ms;
 }
-
 .font_icon_display:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .contact_email {
   color: #4d1e03;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bolder;
   text-decoration: none;
-}
-/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=contact.css.map */

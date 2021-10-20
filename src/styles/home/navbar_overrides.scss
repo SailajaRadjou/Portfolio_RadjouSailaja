@@ -36,5 +36,16 @@
         margin-left: 8px;
         padding: 5px;
     }
+    .nav_name_decription{
+        font-size: 1.2rem;
+    }
 
+}
+@media screen and (min-width : 700px) and (max-width : 1025px)
+{
+    .nav_link_display{
+        align-items: flex-start;
+        margin-left: 8px;
+        padding: 5px;
+    }
 }

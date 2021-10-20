@@ -11,7 +11,7 @@ function Parcours() {
                 <h2 className="sub_title">Parcours</h2><br />
             <CardGroup>
                 <Card className="card_display">
-                    <Card.Img variant="top" src={Univ_img} className="img-fluid"/>
+                    <Card.Img variant="top" src={Univ_img} className="img-fluid card_display_image"/>
                     <Card.Body>
                     <Card.Title>Master en Informatique Appliqué (MCA)</Card.Title>
                     <Card.Text>
@@ -23,7 +23,7 @@ function Parcours() {
                     </Card.Footer>
                 </Card>
                 <Card className="card_display">
-                    <Card.Img variant="top" src={Open_img} className="img-fluid image_display"  />
+                    <Card.Img variant="top" src={Open_img} className="img-fluid image_display card_display_image"  />
                     <Card.Body>
                     <Card.Title>Formation OpenClassrooms</Card.Title>
                     <Card.Text>

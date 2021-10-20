@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,mBAAmB,CAAA;EACf,KAAK,EAAE,KAAK;CACf;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAEtD,AAAA,mBAAmB,CAAA;IACf,KAAK,EAAE,IAAI;GACd",
-    "sources": [
-        "competences_overrides.scss"
-    ],
-    "names": [],
-    "file": "competences_overrides.css"
-}
+{"version":3,"sources":["competences_overrides.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;AACJ;;AAEA;EAEI;IACI,WAAA;EAAN;AACF;AAGA;EAEI;IACI,sBAAA;EAFN;;EAIE;IACI,WAAA;EADN;AACF","file":"competences_overrides.css"}

@@ -4,4 +4,9 @@
     padding: 0;
   }
 }
-/*# sourceMappingURL=parcours_overrides.css.map */
+@media screen and (min-width: 701px) and (max-width: 1025px) {
+  .parcours_container {
+    margin: 0;
+    padding: 0;
+  }
+}/*# sourceMappingURL=parcours_overrides.css.map */
