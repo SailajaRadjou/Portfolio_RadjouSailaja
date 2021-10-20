@@ -25,7 +25,7 @@ function App() {
                     <div className="col-md-12">
                         <Router>
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                                <Navbar.Brand href="#home" className="nav_name"><h1>Radjou Sailaja - Developpeur Web Junior Frontend</h1></Navbar.Brand>
+                                <Navbar.Brand href="#home" className="nav_name"><h1 className="nav_name_title"><span className="nav_name_person">Radjou Sailaja &nbsp;&nbsp; </span><span> Developpeur Web Junior Frontend</span></h1></Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto nav_link_display">
@@ -53,7 +53,7 @@ function App() {
                                                 smooth: true,
                                                 offset: -70,
                                                 duration: 500,
-                                            })}>Me Contacter</Nav.Link>
+                                            })}>Contact</Nav.Link>
                                         
                                     </Nav>
                                     

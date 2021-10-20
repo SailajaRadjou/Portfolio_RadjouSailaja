@@ -1,18 +1,30 @@
 .card_display {
   margin: 1.5rem;
   padding: 15px;
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
   transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
   border-radius: 1.5rem !important;
-  box-shadow: 2px 3px gainsboro;
+  -webkit-box-shadow: 2px 3px gainsboro;
+          box-shadow: 2px 3px gainsboro;
 }
+
 .card_display_border {
   border-radius: 1.5rem 1.5rem 0 0 !important;
 }
+
 .card_display:hover {
-  box-shadow: 2px 3px 8px #444343;
+  -webkit-box-shadow: 2px 3px 8px #444343;
+          box-shadow: 2px 3px 8px #444343;
 }
 
 .projet_display_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-}/*# sourceMappingURL=projets_overrides.css.map */
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=projets_overrides.css.map */

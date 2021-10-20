@@ -1,11 +1,12 @@
 import React, {Fragment} from 'react'
 import { CardGroup, Card} from 'react-bootstrap';
+import "../styles/parcours/parcours_overrides.css";
 import Open_img from "../images/open.png";
 import Univ_img from "../images/univ_logo.png";
 function Parcours() {
     return (
         <Fragment>
-            <div className="container" id="parcours">
+            <div className="container parcours_container" id="parcours">
             <div className="col-sm-12">
                 <h2 className="sub_title">Parcours</h2><br />
             <CardGroup>

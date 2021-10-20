@@ -40,7 +40,7 @@ p{
   outline: none;
 } 
 
-img{
+.profile_img{
   width:250px;
   height:200px;
 }
@@ -55,8 +55,8 @@ img{
   object-fit: cover;
 }
 .pdf_img_display{
-  width:100px;
-  height:100px;
+  width:80px;
+  height:90px;
   transition: transform 300ms;
 }
 .pdf_img_display:hover{
@@ -65,4 +65,15 @@ img{
 }  
 .sub_title, .copy_right{
   font-family: 'Pacifico', cursive;
+}
+@media screen and (min-width : 300px) and (max-width : 700px)
+{
+.container{
+    margin:0;
+    padding: 5px;
+
+}
+.scroll_button{
+  right: 0;
+}
 }

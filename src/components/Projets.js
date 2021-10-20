@@ -18,7 +18,7 @@ function Projets() {
                         <Card className="card_display">
                             <Card.Img variant="top" src={Projet3} className="img-fluid image_display card_display_border" />
                             <Card.Body className="card_display_border">
-                            <Card.Title>Ohmyfood</Card.Title>
+                            <Card.Title><h3><strong>Ohmyfood</strong></h3></Card.Title>
                             <Card.Text>
                                 Frontend (HTML5 et CSS3 avec SASS) d'un site de commande auprès de restaurants gastronomiques, avec animations CSS.
                             </Card.Text>
@@ -46,7 +46,7 @@ function Projets() {
                         <Card className="card_display">
                             <Card.Img variant="top" src={Projet4} className="img-fluid image_display card_display_border" />
                             <Card.Body className="card_display_border">
-                            <Card.Title>La Chouette Agence</Card.Title>
+                            <Card.Title><h3><strong>La Chouette Agence</strong></h3></Card.Title>
                             <Card.Text>
                             Optimisation du SEO, de l'accessibilité  et réaliser des bonnes pratiques en développement web d'un site web existant "La Chouette Agence"
                             </Card.Text>
@@ -74,9 +74,9 @@ function Projets() {
                         <Card className="card_display">
                             <Card.Img variant="top" src={Projet5} className="img-fluid image_display card_display_border" />
                             <Card.Body className="card_display_border">
-                            <Card.Title>Orinoco</Card.Title>
+                            <Card.Title><h3><strong>Orinoco</strong></h3></Card.Title>
                             <Card.Text>
-                            Création un site de E-Commerce.<br /> Développement frontend en HTML, Bootstrap, Sass, Javascript sans utilisation de frameworks par la consommation d'une API fournie.
+                            Création d'un site de E-Commerce.<br /> Développement frontend en HTML, Bootstrap, Sass, Javascript sans utilisation de frameworks par la consommation d'une API fournie.
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer className="card_display_border">
@@ -104,7 +104,7 @@ function Projets() {
                         <Card className="card_display">
                             <Card.Img variant="top" src={Projet6} className="img-fluid card_display_border" />
                             <Card.Body className="card_display_border">
-                            <Card.Title>Piiquante !</Card.Title>
+                            <Card.Title><h3><strong>Piiquante !</strong></h3></Card.Title>
                             <Card.Text>
                             Une API d'application d'avis gastronomique<br />
                             Développement d'une application web nommée "Piquante" dans laquelle les utilisateurs pourront ajouter leurs sauces préférées 
@@ -135,14 +135,14 @@ function Projets() {
                         <Card className="card_display">
                             <Card.Img variant="top" src={Projet7} className="img-fluid card_display_border" />
                             <Card.Body className="card_display_border">
-                            <Card.Title> Groupomania</Card.Title>
+                            <Card.Title><h3><strong> Groupomania</strong></h3></Card.Title>
                             <Card.Text>                           
                             Développement Fullstack d'un réseau social d'entreprise pour une société Groupomania
                             avec ReactJS, NodeJS et MySQL.<br />
-                            Les utilisateurs pourront Voir les derniers posts de tous les utilisateurs, publier des images,
+                            Les utilisateurs pourront voir les derniers posts de tous les utilisateurs, publier des images,
                             publier du texte message, modifier leur profil, accéder au profil public d'un autre utilisateur. <br />
-                            Sur chaque posts les utilisateurs pourront Liker / disliker, Commenter, Supprimer leur propre post/comment.
-                            Modération par des administrateurs qui peuvent - Supprimer les posts/commentaires qu'ils jugent inappropriés.
+                            Sur chaque posts les utilisateurs pourront liker / disliker, Commenter, Supprimer leur propre post/comment.
+                            Modération : l'administrateur qui peut - Supprimer les posts/commentaires qu'ils jugent inappropriés.
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer className="card_display_border">

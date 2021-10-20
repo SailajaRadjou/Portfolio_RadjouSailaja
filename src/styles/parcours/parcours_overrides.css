@@ -1,0 +1,7 @@
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .parcours_container {
+    margin: 0;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=parcours_overrides.css.map */
