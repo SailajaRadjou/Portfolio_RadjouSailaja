@@ -100,16 +100,16 @@ function Projets() {
                             </Card.Footer>
                         </Card>
                     </CardGroup>
-                    <CardGroup>
+                    <CardGroup className="projet_card_group">
                         <Card className="card_display">
                             <Card.Img variant="top" src={Projet6} className="img-fluid card_display_border" />
                             <Card.Body className="card_display_border">
                             <Card.Title><h3><strong>Piiquante !</strong></h3></Card.Title>
                             <Card.Text>
                             Une API d'application d'avis gastronomique<br />
-                            Développement d'une application web nommée "Piquante" dans laquelle les utilisateurs pourront ajouter leurs sauces préférées 
-                            et liker ou disliker les sauces proposées par les autres utilisateurs.<br /> Le but est de créer le backend de l'application avec NodeJS, 
-                            Framework Express, API REST, MongoDB. Le frontend étant déjà codé et fourni.
+                            <div className="DivForHoverItem"><p>Développement d'une application web nommée "Piquante" dans laquelle les utilisateurs pourront ajouter leurs sauces préférées 
+                            et liker ou disliker les sauces proposées par les autres utilisateurs.</p></div><br /><div className="HiddenText"><p> Le but est de créer le backend de l'application avec NodeJS, 
+                            Framework Express, API REST, MongoDB. Le frontend étant déjà codé et fourni.</p></div>
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer className="card_display_border">
@@ -136,7 +136,7 @@ function Projets() {
                             <Card.Img variant="top" src={Projet7} className="img-fluid card_display_border" />
                             <Card.Body className="card_display_border">
                             <Card.Title><h3><strong> Groupomania</strong></h3></Card.Title>
-                            <Card.Text>                           
+                            <Card.Text className="text_wrap_point">                           
                             Développement Fullstack d'un réseau social d'entreprise pour une société Groupomania
                             avec ReactJS, NodeJS et MySQL.<br />
                             Les utilisateurs pourront voir les derniers posts de tous les utilisateurs, publier des images,

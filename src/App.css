@@ -46,7 +46,7 @@ p{
 }
 .image_display{
   object-fit: cover;
-  width: 100%;
+  
   object-position: 50%;
 }
 .projet_img{
@@ -68,12 +68,12 @@ p{
 }
 @media screen and (min-width : 300px) and (max-width : 700px)
 {
-.container{
-    margin:0;
-    padding: 5px;
+  .container{
+      margin:0;
+      padding: 5px;
 
-}
-.scroll_button{
-  right: 0;
-}
+  }
+  .scroll_button{
+    right: 0;
+  }
 }
