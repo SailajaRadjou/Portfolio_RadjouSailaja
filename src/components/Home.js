@@ -7,7 +7,7 @@ import Competences from './Competences';
 import Parcours from './Parcours';
 import pic_img from "../images/IMGP0247.JPG"; 
 import pdf_img from "../images/PDF_file.png";
-import pdf_file from "../downloads/CV_Radjou_Sailaja_Developpeur_Web.pdf";
+import pdf_file from "../downloads/CV_Sailaja_RADJOU_Developpeur_Web.pdf";
 function Home() {
     return (
         <Fragment>
