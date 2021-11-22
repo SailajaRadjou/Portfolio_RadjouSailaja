@@ -19,7 +19,7 @@ function Contact() {
                             Vous pouvez également me retrouver sur les sites suivants !<br />
                             <div className="font_icon">
                             <a
-                                href="https://www.linkedin.com/in/sailaja-radjou-1b601027/"
+                                href="https://www.linkedin.com/in/sailaja-radjou/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             > <FaLinkedin className="font_icon_display"/></a>
